@@ -17,6 +17,6 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 	res
 		.status(200)
 		.setHeader('Content-Type', 'text/html')
-		.setHeader('Cache-Control', `public, immutable, no-transform, s-maxage=3600, max-age=3600`)
+		.setHeader('Cache-Control', "public, immutable, no-transform, s-maxage=3600, max-age=3600")
 		.end(html);
 }
