@@ -80,7 +80,7 @@ export function getHtml({title, desc, dark = true}: {title: string; desc?: strin
         <html>
             <head>
                 <meta charset="utf-8">
-                <title>hop.io</title>
+                <title>digital garden ogmeta - originally from hop</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1">
                 <style>
                     ${css(dark)}

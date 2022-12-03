@@ -3,7 +3,7 @@ import {getHtml} from '../utils/template';
 import {getScreenshot} from '../utils/pptr';
 import {schema} from '../utils/schema';
 
-const isDev = !process.env.AWS_REGION;
+const isDev = false;
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
 	const result = schema.safeParse(req.query);
