@@ -43,7 +43,7 @@ const css = (dark: boolean) => `
         margin-left: 4px;
         margin-top: 10px;
         font-size: 2.8rem;
-        opacity: 0.5;
+        opacity: 0.7;
         font-weight: 500;
         line-height: 1;
     }
