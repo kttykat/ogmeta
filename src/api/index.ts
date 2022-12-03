@@ -5,7 +5,7 @@ import express from 'express'
 
 const app = express()
 const PORT = 7234
-const isDev = false;
+const isDev = true;
 
 app.use("/", async (req,res) => {
 	const result = schema.safeParse(req.query);
